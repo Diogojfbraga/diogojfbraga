@@ -16,11 +16,16 @@ I build data-driven security projects—especially detection and ML-based intrus
 - **SQL Analytics (Healthcare Ops)** — performance-focused queries, reporting pipelines, dashboards
 - **CTF/Blue Team Notes** — repeatable notes + commands for enumeration, forensics, and detection
 
+## Education
+- BSc (Hons) Computer Science
+
 ## Certifications
-- (ISC)² CC
+- (ISC)² Certified in Cybersecurity (CC)
 - CompTIA Network+
-- Security+
-- (Working on Junior Penetration Testing)
+- CompTIA Security+
+
+## Currently working on
+- Junior Penetration Tester path
 
 <h2> 🚀 &nbsp;Some Tools I Have Used and Learned</h2>
 
