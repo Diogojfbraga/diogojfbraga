@@ -57,6 +57,10 @@ I build data-driven security projects—especially detection and ML-based intrus
   </tr>
 </table>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/diogojfbraga/diogojfbraga/main/dist/github-snake.svg" />
+</p>
+
 
 <h2 align="center">Let’s Connect and have a Chat! 💬</h2>
 
