@@ -2,11 +2,11 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # daily
-  workflow_dispatch:       # allow manual run
+    - cron: "0 0 * * *"
+  workflow_dispatch:
   push:
     branches:
-      - main               # run when you push to main
+      - main
 
 permissions:
   contents: write
@@ -15,10 +15,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - name: Generate snake
-      - uses: Platane/snk@v3
+      - name: Generate snake files
+        uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
@@ -26,7 +27,7 @@ jobs:
             dist/github-snake-dark.svg?palette=github-dark
             dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9&color_background=#000000
 
-      - name: Push generated files
+      - name: Commit and push
         uses: EndBug/add-and-commit@v9
         with:
           add: "dist"
