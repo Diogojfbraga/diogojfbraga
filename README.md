@@ -30,8 +30,14 @@ I build data-driven security projects—especially detection and ML-based intrus
       <p align="center">
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code" width="45" height="45"/>
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" alt="Bash" width="45" height="45"/>
-        <img src="https://cdn.simpleicons.org/github/ffffff" alt="GitHub" width="45" height="45"/>
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux" width="45" height="45"/>
+        <picture>
+            <!-- Dark mode: white GitHub icon -->
+            <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/github/ffffff">
+            <!-- Light mode: black GitHub icon -->
+            <source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/github/000000">
+            <!-- Fallback -->
+            <img src="https://cdn.simpleicons.org/github/000000" alt="GitHub" width="45" height="45"/>
+        </picture>
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/putty/putty-original.svg" alt="PuTTY" width="45" height="45"/>
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="45" height="45"/>
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" alt="C++" width="45" height="45"/>
