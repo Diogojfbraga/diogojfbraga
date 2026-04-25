@@ -30,7 +30,7 @@ I build data-driven security projects—especially detection and ML-based intrus
 - Post Grad Clinical Data Science
 - 100 Days of Code™: The Complete Python Pro Bootcamp
 
-<h2 align="center">🚀 Some Tools I Have Used and Learned</h2>
+<h2 align="center">🚀 Some Tools I Have Used and Learnt</h2>
 
 <table align="center">
   <tr>
